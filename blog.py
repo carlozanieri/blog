@@ -33,7 +33,7 @@ from tornado.options import define, options
 
 define("address", default='0.0.0.0', help="run on the given port")
 define("port", default=8888, help="run on the given port", type=int)
-define("db_host", default="carlozanieri.it", help="blog database host")
+define("db_host", default="vps711017.ovh.net", help="blog database host")
 define("db_port", default=5432, help="blog database port")
 define("db_database", default="blog", help="blog database name")
 define("db_user", default="blog", help="blog database user")
